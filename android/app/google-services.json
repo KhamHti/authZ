@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "12496548624",
+    "project_id": "authz-82adf",
+    "storage_bucket": "authz-82adf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12496548624:android:3f49c23a87e4fb34362b95",
+        "android_client_info": {
+          "package_name": "com.authz.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12496548624-b4o35lapqd9naccvpen5kl93gjgm8d3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWL-zS2x8a6Ti212MMS3gNLJi2vrTLwHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12496548624-b4o35lapqd9naccvpen5kl93gjgm8d3o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "12496548624-hqvg67jclh80h98a68vc0a548ii4491b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.authz.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
+apply plugin: "com.android.application"
+apply plugin: "com.google.gms.google-services"
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -75,7 +77,7 @@ android {
 
     namespace "com.authz"
     defaultConfig {
-        applicationId "com.authz"
+        applicationId "com.authz.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -118,6 +120,8 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    implementation platform('com.google.firebase:firebase-bom:32.3.1')
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
